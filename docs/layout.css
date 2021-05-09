@@ -7,6 +7,7 @@ body{
   background-image: url("https://raw.githubusercontent.com/balint12345/portfolio/main/docs/pexels-life-of-pix-2391.jpg");
   background-repeat: no-repeat;
   background-size: 100% 101%;
+  background-attachment: fixed;
 }
 
 
@@ -32,6 +33,21 @@ a:hover, a:active {
   color: #57564a;
 }
 
+#simalink{
+  background-color: #f2eb96;
+  color: #57564a;
+  width: auto;
+  background-color: #f2eb96;
+  color: black;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position:relative;
+  left:2%;
+}
+
+
 div.cim{
 	font-family: Rockwell;
 	position: absolute;
@@ -46,4 +62,37 @@ div.menu{
      left: 80%;
 	 top: 15%;
 	 width: 13%;
+}
+
+div.leiras{
+	position: absolute;
+	left:15%;
+	top: 15%;
+	width:60%;
+	font-family: Rockwell;
+	background-color: #f2eb96;
+	border: 2px solid #fcba03;
+	border-radius: 25px;
+}
+
+p{
+	position: relative;
+	width:98%;
+	left:1%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+
+h4{
+	position: relative;
+	width:96%;
+	left:2%;
+	font-weight: bold;
+}
+
+#terv{
+	position: relative;
+	width:60%;
+	left:20%;
 }
